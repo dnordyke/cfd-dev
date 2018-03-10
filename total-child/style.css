@@ -497,14 +497,14 @@ a > .ourHistoryButton {color: #ec5e54;}
 
 }
 
-.ticketLinkButton {
+a.ticketLinkButton {
  background: url(/wp-content/uploads/2018/03/ticket-icon.png) top right no-repeat;
 
 }
 
 /*Juicer Social Feed */
 
-.juicerWall .wpex-vc-row-boxed-layout-stretched {
+.juicerWall.wpex-vc-row-boxed-layout-stretched {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
 }
