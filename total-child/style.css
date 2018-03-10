@@ -497,7 +497,18 @@ a > .ourHistoryButton {color: #ec5e54;}
 
 }
 
+.ticketLinkButton {
+ background: url(/wp-content/uploads/2018/03/ticket-icon.png) top right no-repeat;
+
+}
+
 /*Juicer Social Feed */
+
+.juicerWall .wpex-vc-row-boxed-layout-stretched {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
 .juicer-feed.image-grid .j-text{
 	background: #6846b8; /* Old browsers */
 	background: -moz-linear-gradient(45deg, #6846b8 0%, #9748bf 100%); /* FF3.6-15 */
