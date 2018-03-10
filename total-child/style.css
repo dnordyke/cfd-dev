@@ -498,7 +498,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 }
 
 a.ticketLinkButton {
- background: url(/wp-content/uploads/2018/03/ticket-icon.png) top right no-repeat;
+ background: #2467ee url(/wp-content/uploads/2018/03/ticket-icon.png) top right no-repeat !important;
 
 }
 
