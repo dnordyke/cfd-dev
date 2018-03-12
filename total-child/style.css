@@ -35,23 +35,6 @@ p {
 	padding: 0 150px 10px 150px !important;
 }
 
-.mainNav {
-	float: right;
-}
-
-#site-navigation .dropdown-menu a {
-    font-family: "Roboto Slab";
-    font-weight: 300;
-    font-style: normal;
-    font-size: 16px;
-    letter-spacing: 0;
- }
-
-#site-navigation .dropdown-menu li a {
-	opacity: 1;
-	padding: 0;
-}
-
 
 .standardButton {
   text-align: center;
@@ -78,6 +61,26 @@ p {
 .boxed-main-layout .navbar-style-one {
 	position: relative;
 }
+
+/*Naviation Styles */
+
+.mainNav {
+	float: right;
+}
+
+#site-navigation .dropdown-menu a {
+    font-family: "Roboto Slab";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0;
+ }
+
+#site-navigation .dropdown-menu li a {
+	opacity: 1;
+	padding: 0;
+}
+
 
 #site-navigation {
 	margin-top: 25px;
@@ -138,19 +141,24 @@ sf-menu ul {
 
 .wpex-dropdown-style-minimal-sq #site-navigation .dropdown-menu ul {
 
-    -moz-column-count: 3;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 20px;
-    column-count: 3;
-    column-gap: 20px;
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  column-count: 3;
+  column-gap: 20px;
 	background: #1d62f2; /* Old browsers */
 	background: -moz-linear-gradient(top, #1d62f2 0%, #6742bc 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, #1d62f2 0%,#6742bc 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #1d62f2 0%,#6742bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); /* IE6-9 */
 	padding: 25px;
-    margin-top: 11px;
+  margin-top: 11px;
+}
+
+#site-navigation .dropdown-menu li.nav2Col ul {
+	column-count: 2;
+  column-gap: 20px;
 }
 
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-716 ul {
@@ -172,6 +180,10 @@ sf-menu ul {
 	border-left: 4px solid #b8e64c;
 	font-weight:700;
 	padding: 0 5px;
+}
+
+.sf-menu li:hover {
+	background: #ffcc00;
 }
 
 /* BEGIN: Daniel font page ribbon */
@@ -247,6 +259,10 @@ body.home #overlay-header-wrap {
 
 .vcex-countdown > div {
 	margin: 0 10px 0 0;
+}
+
+span.theme-button-inner {
+	font-family: "Roboto Sans";
 }
 
 
