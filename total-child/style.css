@@ -198,7 +198,13 @@ sf-menu ul {
 
  #site-navigation .dropdown-menu a:hover, #site-navigation .dropdown-menu>.current-menu-item>a {
 	 color: #fff;
+	 background: #1d62f2;
  }
+
+#site-navigation .dropdown-menu li:hover {
+	color: #fff;
+}
+
 
 /* BEGIN: Daniel font page ribbon */
 #blue_ribbon {
