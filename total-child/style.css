@@ -153,16 +153,26 @@ sf-menu ul {
 	background: linear-gradient(to bottom, #1d62f2 0%,#6742bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); /* IE6-9 */
 	padding: 25px;
-  margin-top: 11px;
+  margin-top: 10px;
 }
 
 #site-navigation .dropdown-menu li.nav2Col ul {
 	column-count: 2;
   column-gap: 20px;
 }
+/*positioning dropdowns to swing to the left */
 
+.wpex-dropdown-style-minimal-sq #site-navigation .menu-item-21 ul {
+	left: -410%;
+}
+.wpex-dropdown-style-minimal-sq #site-navigation .menu-item-20 ul {
+	left: -410%;
+}
+.wpex-dropdown-style-minimal-sq #site-navigation .menu-item-1131 ul {
+	left: -410%;
+}
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-716 ul {
-	left: -465px;
+	left: -410%;
 }
 
 #site-navigation .dropdown-menu ul a:hover {
@@ -262,7 +272,7 @@ body.home #overlay-header-wrap {
 }
 
 span.theme-button-inner {
-	font-family: "Roboto Sans";
+	font-family: "Roboto Slab";
 }
 
 
