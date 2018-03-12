@@ -196,6 +196,10 @@ sf-menu ul {
 	background: #1d62f2;
 }
 
+.sf-menu li:hover a{
+	color: #fff;
+}
+
 /* BEGIN: Daniel font page ribbon */
 #blue_ribbon {
 	color: #fff;
