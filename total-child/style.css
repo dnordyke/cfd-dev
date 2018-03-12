@@ -159,7 +159,7 @@ sf-menu ul {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); /* IE6-9 */
 	padding: 25px;
   margin-top: 0px;
-	box-shadow: 0 6px 8px;
+	box-shadow: 2px 2px 4px 0px #222;
 }
 
 #site-navigation .dropdown-menu li.nav2Col ul {
@@ -560,6 +560,15 @@ a > .ourHistoryButton {color: #ec5e54;}
 a.ticketLinkButton {
  background: #2467ee url(/wp-content/uploads/2018/03/ticket-icon.png) top right no-repeat !important;
 
+}
+
+.planCallOut {
+	padding: 25px;
+}
+
+.homepagePlan p {
+	line-height: 26px;
+	font-size: 16px;
 }
 
 /*Juicer Social Feed */
