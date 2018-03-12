@@ -196,9 +196,9 @@ sf-menu ul {
 	background: #1d62f2;
 }
 
-.sf-menu li:hover a{
-	color: #fff;
-}
+ #site-navigation .dropdown-menu a:hover, #site-navigation .dropdown-menu>.current-menu-item>a {
+	 color: #fff;
+ }
 
 /* BEGIN: Daniel font page ribbon */
 #blue_ribbon {
