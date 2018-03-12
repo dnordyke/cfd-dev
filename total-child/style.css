@@ -201,7 +201,7 @@ sf-menu ul {
 	 background: #1d62f2;
  }
 
-#site-navigation .dropdown-menu li:hover {
+#site-navigation .dropdown-menu li:hover a{
 	color: #fff;
 }
 
