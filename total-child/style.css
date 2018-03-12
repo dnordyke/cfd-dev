@@ -68,6 +68,11 @@ p {
 	float: right;
 }
 
+.navbar-style-one .dropdown-menu>li>a {
+	height: 40px;
+	line-height: 40px;
+}
+
 #site-navigation .dropdown-menu a {
     font-family: "Roboto Slab";
     font-weight: 300;
@@ -154,6 +159,7 @@ sf-menu ul {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); /* IE6-9 */
 	padding: 25px;
   margin-top: 0px;
+	box-shadow: 0 6px 8px;
 }
 
 #site-navigation .dropdown-menu li.nav2Col ul {
@@ -163,16 +169,20 @@ sf-menu ul {
 /*positioning dropdowns to swing to the left */
 
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-21 ul {
-	left: -410%;
+	left: -243%;
 }
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-20 ul {
-	left: -410%;
+	left: -252%;
 }
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-1131 ul {
-	left: -410%;
+	left: -357%;
+}
+
+.wpex-dropdown-style-minimal-sq #site-navigation .menu-item-19 ul {
+	left: -233%;
 }
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-716 ul {
-	left: -410%;
+	left: -341%;
 }
 
 #site-navigation .dropdown-menu ul a:hover {
