@@ -160,7 +160,6 @@ sf-menu ul {
 	padding: 25px;
   margin-top: 0px;
 	box-shadow: 2px 2px 4px 0px #222;
-
 }
 
 #site-navigation .dropdown-menu li.nav2Col ul {
@@ -192,7 +191,7 @@ sf-menu ul {
 
 #site-navigation .dropdown-menu ul li {
 	padding: 5px;
-	min-width: 150px;
+	min-width: 180px;
 	display: inline-block;
 
 }
