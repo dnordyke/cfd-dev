@@ -1117,12 +1117,16 @@ p.copyright {
 
 /*Homepage Mobile Styles*/
 @media only screen and (max-width: 767px) {
-	.planCardLeft, .planCardRight, .planCallOut, .planCallOut .vc_column-inner {
+	.planCardLeft, .planCardRight, .planCallOut {
 		padding: 0;
 		margin: 0;
 	}
+	 .planCallOut .vc_column-inner {
+		 padding: 10px;
+		 border: 0;
+	 }
 	.planYourExperience {
-		flex-direction: column;
+		flex-direction: column !important;
 	}
 
 }
@@ -1133,7 +1137,7 @@ p.copyright {
 
 	/*Interior Page Mobile Styles*/
 	@media only screen and (max-width: 767px) {
-	.vc_row { flex-direction:column-reverse}
+	.vc_row { flex-direction:column-reverse;}
 
 	.wpex-vc-row-boxed-layout-stretched {
 		 padding-left: 15px !important;
