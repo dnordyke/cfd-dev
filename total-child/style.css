@@ -1113,7 +1113,7 @@ h1.page-header-title span {
 }
 
 .owmUpcomingEventsLeftCol .vc_column-inner {
-	padding: 200px 50px 0 50px;
+	padding: 140px 0 0 0;
 }
 
 .owmCurrentExhibit p{
@@ -1122,12 +1122,14 @@ h1.page-header-title span {
 	font-family:"proxima-nova", sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding-left: 30px;
 }
 
 .owmCurrentExhibitDate p {
 	color: #fff;
 	font-size: 14px;
 	font-family: "Roboto Slab", serif;
+	padding-left: 30px;
 }
 
 .owmCurrentExhibitTitle p{
@@ -1136,12 +1138,14 @@ h1.page-header-title span {
 	font-family:"proxima-nova", sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding-left: 30px;
 }
 
 .owmCurrentExhibitSubtitle p{
 	color: #fff;
 	font-size: 14px;
 	font-family:"proxima-nova", sans-serif;
+	padding-left: 30px;
 }
 /*Footer Styles*/
 
