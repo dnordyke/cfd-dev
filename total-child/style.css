@@ -527,6 +527,11 @@ a > .ourHistoryButton {color: #ec5e54;}
 	color: #fff;
 }
 
+.planCard {
+	margin: 0;
+	padding: 0 40px;
+}
+
 .planCardText {
 	height: 190px;
 	padding: 25px 35px;
