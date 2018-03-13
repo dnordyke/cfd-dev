@@ -1109,7 +1109,10 @@ h1.page-header-title span {
 	line-height: 32px;
 }
 .owmUpcomingEventsRightCol {
-	padding-top: 70px;
+	padding-top: 60px;
+}
+.owmUpcomingEventsLeftCol {
+	padding: 34px 15px 0;
 }
 
 .owmUpcomingEventsLeftCol .vc_column-inner {
@@ -1153,7 +1156,7 @@ h1.page-header-title span {
 	font-size: 27px;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-bottom: 20px !important;
+	margin-bottom: 10px !important;
 }
 
 .owmUpcomingEvents h4 {
