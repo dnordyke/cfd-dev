@@ -239,11 +239,11 @@ sf-menu ul {
 
 /*Eyebrow Nav Styles */
 
-.topMenu .sf-menu li:hover {
+#site-navigation .topMenu li:hover {
 	background: transparent;
 }
 
-.topMenu .sf-menu li a:hover {
+#site-navigation .topMenu li a:hover {
 	text-decoration: underline;
 }
 
