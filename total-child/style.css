@@ -552,6 +552,11 @@ a > .ourHistoryButton {color: #ec5e54;}
 	font-size: 16px;
 }
 
+.planCallOut ul {
+	margin: 0;
+	width: 100%;
+}
+
 .planCallOut ul li {
 	display: inline;
 	float: left;
@@ -561,6 +566,13 @@ a > .ourHistoryButton {color: #ec5e54;}
 .planCallOut ul li a {
 	text-transform: uppercase;;
 	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	border-right: 1px solid #fff;
+}
+
+.planCallOut ul li a:last-child {
+	border-right: 0;
 }
 
 .planCallOut ul li a:hover {
