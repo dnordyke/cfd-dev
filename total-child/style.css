@@ -539,8 +539,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 }
 
 .planCallOut .vc_column-inner {
-	margin-left: 50px;
-	padding: 25px;
+	padding: 50px;
 	border: 1px solid #fff;
 }
 
@@ -548,9 +547,24 @@ a > .ourHistoryButton {color: #ec5e54;}
 	margin-left: 50px;
 }
 
-.homepagePlan p {
+.planCallOut p {
 	line-height: 26px;
 	font-size: 16px;
+}
+
+.planCallOut ul li {
+	display: inline;
+	float: left;
+	padding-right: 10px;
+}
+
+.planCallOut ul li a {
+	text-transform: uppercase;;
+	color: #fff;
+}
+
+.planCallOut ul li a:hover {
+	text-decoration: underline;
 }
 
 
