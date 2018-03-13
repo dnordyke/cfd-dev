@@ -1098,16 +1098,43 @@ h1.page-header-title span {
 	font-family: "Roboto Slab", serif;
 	font-size: 72px;
 	color: #fff;
-	line-height: 80px;
+	line-height: normal;
+	text-transform: uppercase;
 }
 
-.owmOpener .owmSubtitle {
+.owmOpener .owmSubtitle p{
 	color: #fee661;
 	font-family: "Roboto Slab", serif;
 	font-size: 32px;
-	line-height: 40px;
+	line-height: normal;
+}
+.owmUpcomingEventsRightCol {
+	padding-top: 70px;
 }
 
+.owmCurrentExhibit p{
+	color: #fff;
+	font-size: 16px;
+	font-family:"proxima-nova", sans-serif;
+}
+
+.owmCurrentExhibitDate p {
+	color: #fff;
+	font-size: 14px;
+	font-family: "Roboto Slab", serif;
+}
+
+.owmCurrentExhibitTitle p{
+	color: #fff;
+	font-size: 30px;
+	font-family:"proxima-nova", sans-serif;
+}
+
+.owmCurrentExhibitSubtitle p{
+	color: #fff;
+	font-size: 14px;
+	font-family:"proxima-nova", sans-serif;
+}
 /*Footer Styles*/
 
 #footer-widgets {
