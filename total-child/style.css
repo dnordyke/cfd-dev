@@ -530,9 +530,6 @@ a > .ourHistoryButton {color: #ec5e54;}
 	padding: 100px 0 100px 0;
 }
 
-
-
-
 .planExperience p {
 	font-family: "proxima-nova";
 	font-size: 20px;
@@ -541,15 +538,21 @@ a > .ourHistoryButton {color: #ec5e54;}
 	color: #fff;
 }
 
-.planCallOut vc_column-inner {
+.planCallOut .vc_column-inner {
 	margin-left: 50px;
 	padding: 25px;
 	border: 1px solid #fff;
 }
 
-.planCallOut h2 {
-	line-height: 55px;
+.planCallOut {
+	margin-left: 50px;
 }
+
+.homepagePlan p {
+	line-height: 26px;
+	font-size: 16px;
+}
+
 
 .planCard {
 	margin: 0;
@@ -557,11 +560,11 @@ a > .ourHistoryButton {color: #ec5e54;}
 }
 
 .planCardLeft {
-	padding-left: 52px;
+	padding-left: 62px;
 }
 
 .planCardRight {
-	padding-right: 52px;
+	padding-right: 62px;
 }
 
 .planCardText {
@@ -585,6 +588,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
+	line-height: 55px;
 }
 
 .planCard .wpb_text_column {
@@ -617,14 +621,6 @@ a.ticketLinkButton {
 
 }
 
-.planCallOut {
-	padding: 25px;
-}
-
-.homepagePlan p {
-	line-height: 26px;
-	font-size: 16px;
-}
 
 /*Juicer Social Feed */
 
