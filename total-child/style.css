@@ -233,6 +233,17 @@ sf-menu ul {
 	color: #fff;
 }
 
+#site-navigation .dropdown-menu ul li.subNavWide {
+	width: 220px;
+}
+
+/*Eyebrow Nav Styles */
+
+.topMenu .sf-menu li:hover {
+	background: transparent;
+	text-decoration: underline;
+}
+
 
 /* BEGIN: Daniel font page ribbon */
 #blue_ribbon {
@@ -529,7 +540,15 @@ a > .ourHistoryButton {color: #ec5e54;}
 
 .planCard {
 	margin: 0;
-	padding: 0 40px;
+	padding: 0;
+}
+
+.planCardLeft {
+	padding-left: 52px;
+}
+
+.planCardRight {
+	padding-right: 52px;
 }
 
 .planCardText {
