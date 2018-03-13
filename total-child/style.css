@@ -908,6 +908,7 @@ a.simplefavorite-button  {
 .page-template-default .page-header {
 	height: 250px;
 	padding: 0 130px;
+	border-top: 0;
 }
 
 .page-header .page-header-title {
@@ -1086,6 +1087,26 @@ h1.page-header-title span {
 
 .owl-carousel.owl-loaded {clear: both}
 
+
+/*Old West Museum */
+
+.owmOpener {
+	padding-top: 150px;
+}
+
+.owmOpener .owmTitle h1 {
+	font-family: "Roboto Slab", serif;
+	font-size: 72px;
+	color: #fff;
+	line-height: 80px;
+}
+
+.owmOpener .owmSubtitle {
+	color: #fee661;
+	font-family: "Roboto Slab", serif;
+	font-size: 32px;
+	line-height: 40px;
+}
 
 /*Footer Styles*/
 
