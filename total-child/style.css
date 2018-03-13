@@ -541,6 +541,16 @@ a > .ourHistoryButton {color: #ec5e54;}
 	color: #fff;
 }
 
+.planCallOut vc_column-inner {
+	margin-left: 50px;
+	padding: 25px;
+	border: 1px solid #fff;
+}
+
+.planCallOut h2 {
+	line-height: 55px;
+}
+
 .planCard {
 	margin: 0;
 	padding: 0;
