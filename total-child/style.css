@@ -1098,7 +1098,7 @@ h1.page-header-title span {
 	font-family: "Roboto Slab", serif;
 	font-size: 72px;
 	color: #fff;
-	line-height: normal;
+	line-height: 72px;
 	text-transform: uppercase;
 }
 
@@ -1106,16 +1106,22 @@ h1.page-header-title span {
 	color: #fee661;
 	font-family: "Roboto Slab", serif;
 	font-size: 32px;
-	line-height: normal;
+	line-height: 32px;
 }
 .owmUpcomingEventsRightCol {
 	padding-top: 70px;
+}
+
+.owmUpcomingEventsLeftCol {
+	padding: 200px 50px 0 50px;
 }
 
 .owmCurrentExhibit p{
 	color: #fff;
 	font-size: 16px;
 	font-family:"proxima-nova", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .owmCurrentExhibitDate p {
@@ -1128,6 +1134,8 @@ h1.page-header-title span {
 	color: #fff;
 	font-size: 30px;
 	font-family:"proxima-nova", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .owmCurrentExhibitSubtitle p{
