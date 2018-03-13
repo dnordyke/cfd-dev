@@ -176,8 +176,8 @@ sf-menu ul {
 }
 
 #site-navigation .dropdown-menu ul li {
-	padding: 5px;
-	min-width: 220px;
+	padding: 1px 0;
+	min-width: 180px;
 	display: inherit;
 	break-inside: avoid;
 
