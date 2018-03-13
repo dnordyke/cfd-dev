@@ -161,7 +161,7 @@ sf-menu ul {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); /* IE6-9 */
 	padding: 25px;
   margin-top: 0px;
-	box-shadow: 2px 2px 4px 0px #222;
+	box-shadow: 2px 2px 4px -2px #222;
 }
 /*Accounting for sub navs with too few items to build 3 column layout*/
 
@@ -199,7 +199,7 @@ sf-menu ul {
 	left: 0%;
 }
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-716 ul {
-	left: -498%;
+	left: -356%;
 }
 
 #site-navigation .dropdown-menu ul a:hover {
