@@ -1148,11 +1148,21 @@ h1.page-header-title span {
 	padding-left: 30px;
 }
 
+.owmUpcomingEvents h3 {
+	font-family: "Roboto Slab", serif;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
 .owmUpcomingEvents h4 {
 	color: #ec5e54;
 	font-family: "Roboto Slab", serif;
 	font-size: 18px;
 	text-transform: uppercase;
+
+}
 /*Footer Styles*/
 
 #footer-widgets {
