@@ -491,7 +491,8 @@ a > .ourHistoryButton {color: #ec5e54;}
 
 
 .polaroids .vc_custom_1511212651809 {
-	background-position: 100px 140px !important;
+	background-position: 91px 0px !important;
+	padding-top: 40px;
 }
 
 /*Revolution Slider customizations for polaroid slider*/
