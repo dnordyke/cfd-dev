@@ -1117,8 +1117,12 @@ p.copyright {
 
 /*Homepage Mobile Styles*/
 @media only screen and (max-width: 767px) {
-	.planCardLeft, .planCardRight {
+	.planCardLeft, .planCardRight, .planCallOut, .planCallOut .vc_column-inner {
 		padding: 0;
+		margin: 0;
+	}
+	.planYourExperience {
+		flex-direction: column;
 	}
 
 }
