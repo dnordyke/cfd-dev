@@ -160,6 +160,7 @@ sf-menu ul {
 	padding: 25px;
   margin-top: 0px;
 	box-shadow: 2px 2px 4px 0px #222;
+	display: flex;
 }
 
 #site-navigation .dropdown-menu li.nav2Col ul {
@@ -191,6 +192,8 @@ sf-menu ul {
 
 #site-navigation .dropdown-menu ul li {
 	padding: 5px;
+	min-width: 150px;
+	display: inline-block;
 
 }
 
@@ -200,6 +203,10 @@ sf-menu ul {
 	border-left: 4px solid #b8e64c;
 	font-weight:700;
 	padding: 0 5px;
+}
+
+.sf-menu li {
+	white-space: normal;
 }
 
 .sf-menu li:hover {
