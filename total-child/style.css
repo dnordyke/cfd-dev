@@ -186,20 +186,20 @@ sf-menu ul {
 /*positioning dropdowns to swing to the left */
 
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-21 ul {
-	left: -243%;
+	left: 0;
 }
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-20 ul {
-	left: -252%;
+	left: -127%;
 }
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-1131 ul {
-	left: -357%;
+	left: -340%;
 }
 
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-19 ul {
-	left: -233%;
+	left: 0%;
 }
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-716 ul {
-	left: -341%;
+	left: -498%;
 }
 
 #site-navigation .dropdown-menu ul a:hover {
