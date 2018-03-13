@@ -144,6 +144,8 @@ sf-menu ul {
 	min-width: 700px;
 }*/
 
+
+/*creating 3 col layout in subnav ul */
 .wpex-dropdown-style-minimal-sq #site-navigation .dropdown-menu ul {
 
   -moz-column-count: 3;
@@ -161,11 +163,19 @@ sf-menu ul {
   margin-top: 0px;
 	box-shadow: 2px 2px 4px 0px #222;
 }
+/*Accounting for sub navs with too few items to build 3 column layout*/
+
+#site-navigation .dropdown-menu li.nav1Col ul {
+	column-count: 1;
+  column-gap: 20px;
+}
 
 #site-navigation .dropdown-menu li.nav2Col ul {
 	column-count: 2;
   column-gap: 20px;
 }
+
+
 /*positioning dropdowns to swing to the left */
 
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-21 ul {
