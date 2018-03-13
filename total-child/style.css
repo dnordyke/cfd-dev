@@ -561,6 +561,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 	display: inline;
 	float: left;
 	padding-right: 10px;
+	border-right: 1px solid #fff;
 }
 
 .planCallOut ul li a {
@@ -568,10 +569,10 @@ a > .ourHistoryButton {color: #ec5e54;}
 	color: #fff;
 	font-size: 14px;
 	font-weight: 700;
-	border-right: 1px solid #fff;
+
 }
 
-.planCallOut ul li a:last-child {
+.planCallOut ul li:last-child {
 	border-right: 0;
 }
 
