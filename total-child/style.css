@@ -431,6 +431,11 @@ a > .buyTicketsButton, a > .buyTicketsRedButton {color: #fff;}
 }
 
 
+.historyToToday {
+	padding-top: 190px;
+}
+
+
 .ourHistoryButton {
 	border: 2px solid #ec5e54;
 	line-height: 51px;
@@ -448,7 +453,7 @@ a > .buyTicketsButton, a > .buyTicketsRedButton {color: #fff;}
 a > .ourHistoryButton {color: #ec5e54;}
 
 .historyLine1 p {
-	font-family: "";
+	font-family: "proxima-nova";
 	font-size: 16px;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -1081,80 +1086,6 @@ h1.page-header-title span {
 .owl-carousel.owl-loaded {clear: both}
 
 
-
-
-/*Interior Page Mobile Styles*/
-@media only screen and (max-width: 767px) {
-.vc_row { flex-direction:column-reverse}
-
-.wpex-vc-row-boxed-layout-stretched {
-	 padding-left: 15px !important;
-	 padding-right: 15px !important;
-	 }
-#site-header-inner {
-	padding-left: 30px !important;
-	padding-right: 30px !important;
-}
-
-.firstRow .leftCol {
-	padding-top: 0;
-
-}
-
-.firstRow .rightCol {
-	margin-top: 0;
-}
-
-.page-header-table-cell {
-	text-align: center;
-	padding: 0 30px;
-}
-
-.page-template-default .page-header {
-	padding: 25px 0;
-	text-align:center;
-}
-
-.page-header .page-header-title {
-	position:relative;
-	margin-top: 0;
-	font-family: "Roboto Slab";
-	font-style: normal;
-	font-weight:700;
-	font-size: 45px;
-	color: #fff;
-}
-
-.page-header .page-subheading {
-	position:relative;
-	margin-top: 0;
-	font-family: "proxima-nova";
-	font-weight:400;
-	font-size: 24px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	color: #fff !important;
-
-}
-
-h1.page-header-title span {
-	position: relative;
-    bottom: 0;
-    line-height: normal;
-	font-size: 10vw;
-
-}
-
-.featureBox .vc_column-inner {
-	width: 100%;
-	padding: 50px;
-}
-
-
-}
-
-
-
 /*Footer Styles*/
 
 #footer-widgets {
@@ -1183,5 +1114,84 @@ p.copyright {
 	line-height:22px;
 }
 
-/*Mobile Styles*/
+/*Homepage Mobile Styles*/
 @media only screen and (max-width: 767px) {
+	.planCardLeft, .planCardRight {
+		padding: 0;
+	}
+
+}
+
+
+
+
+
+	/*Interior Page Mobile Styles*/
+	@media only screen and (max-width: 767px) {
+	.vc_row { flex-direction:column-reverse}
+
+	.wpex-vc-row-boxed-layout-stretched {
+		 padding-left: 15px !important;
+		 padding-right: 15px !important;
+		 }
+	#site-header-inner {
+		padding-left: 30px !important;
+		padding-right: 30px !important;
+	}
+
+	.firstRow .leftCol {
+		padding-top: 0;
+
+	}
+
+	.firstRow .rightCol {
+		margin-top: 0;
+	}
+
+	.page-header-table-cell {
+		text-align: center;
+		padding: 0 30px;
+	}
+
+	.page-template-default .page-header {
+		padding: 25px 0;
+		text-align:center;
+	}
+
+	.page-header .page-header-title {
+		position:relative;
+		margin-top: 0;
+		font-family: "Roboto Slab";
+		font-style: normal;
+		font-weight:700;
+		font-size: 45px;
+		color: #fff;
+	}
+
+	.page-header .page-subheading {
+		position:relative;
+		margin-top: 0;
+		font-family: "proxima-nova";
+		font-weight:400;
+		font-size: 24px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: #fff !important;
+
+	}
+
+	h1.page-header-title span {
+		position: relative;
+	    bottom: 0;
+	    line-height: normal;
+		font-size: 10vw;
+
+	}
+
+	.featureBox .vc_column-inner {
+		width: 100%;
+		padding: 50px;
+	}
+
+
+	}
