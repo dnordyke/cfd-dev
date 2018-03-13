@@ -1109,8 +1109,9 @@ h1.page-header-title span {
 .owmOpener .owmSubtitle p{
 	color: #fee661;
 	font-family: "Roboto Slab", serif;
-	font-size: 32px;
-	line-height: 32px;
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: 300;
 }
 .owmUpcomingEventsRightCol {
 	padding-top: 60px;
@@ -1170,6 +1171,12 @@ h1.page-header-title span {
 	text-transform: uppercase;
 
 }
+
+.owmUpcomingEvents {
+	margin-bottom: 50px;
+}
+
+
 /*Footer Styles*/
 
 #footer-widgets {
