@@ -175,6 +175,13 @@ sf-menu ul {
   column-gap: 20px;
 }
 
+#site-navigation .dropdown-menu ul li {
+	padding: 5px;
+	min-width: 220px;
+	display: inherit;
+	break-inside: avoid;
+
+}
 
 /*positioning dropdowns to swing to the left */
 
@@ -199,12 +206,7 @@ sf-menu ul {
 	background: transparent;
 }
 
-#site-navigation .dropdown-menu ul li {
-	padding: 5px;
-	min-width: 180px;
-	display: inline-block;
 
-}
 
 .wpex-dropdown-style-minimal-sq #site-navigation .dropdown-menu ul li a {
 
