@@ -1114,10 +1114,10 @@ h1.page-header-title span {
 	font-weight: 300;
 }
 .owmUpcomingEventsRightCol {
-	padding-top: 60px;
+	padding-top: 80px;
 }
 .owmUpcomingEventsLeftCol {
-	padding: 34px 15px 0;
+
 }
 
 .owmUpcomingEventsLeftCol .vc_column-inner {
@@ -1131,6 +1131,11 @@ h1.page-header-title span {
 	text-transform: uppercase;
 	font-weight: 700;
 	padding-left: 30px;
+}
+
+.owmCurrentExhibit {
+	padding: 50% 0 0 0;
+	min-height: 449px;
 }
 
 .owmCurrentExhibitDate p {
@@ -1169,11 +1174,17 @@ h1.page-header-title span {
 	font-family: "Roboto Slab", serif;
 	font-size: 18px;
 	text-transform: uppercase;
+	margin-top: 10px;
 
 }
 
+.ownUpcomingEvents h4::after {
+	content:"/wp-content/uploads/03/2018/h3-arrow.png";
+	padding-left: 20px;
+}
+
 .owmUpcomingEvents {
-	margin-bottom: 50px;
+	margin-bottom: 50px !important;
 }
 
 
