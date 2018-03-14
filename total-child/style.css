@@ -41,7 +41,7 @@ p {
 }
 
 .owmStandardButton {
-	margin-top: 15px;
+	margin-top: 25px;
 }
 .vc_row {
     display: flex;
@@ -1179,8 +1179,8 @@ h1.page-header-title span {
 
 }
 
-.ownUpcomingEvents .headerArrow h4::after {
-	content:"\f105";
+.ownUpcomingEvents .headerArrow h4 a::after {
+	content: "test";
 	padding-left: 20px;
 	color: #ec5e54;
 	display: inline-block;
