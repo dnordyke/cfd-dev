@@ -1184,8 +1184,8 @@ h1.page-header-title span {
 	font-weight: 700;
 }
 
-.ownUpcomingEvents h4 a::after {
-	content: url(/wp-content/uploads/03/18/h3-arrow.png);
+.owmUpcomingEvents h4 a::after {
+	content:"\f105";
 	padding-left: 20px;
 	color: #ec5e54;
 	display: inline-block;
