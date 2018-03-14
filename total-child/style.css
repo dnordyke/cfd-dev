@@ -1175,7 +1175,7 @@ h1.page-header-title span {
 
 }
 
-.ownUpcomingEvents h4::after{
+.ownUpcomingEvents .headerArrow h4::after {
 	content:"Yay!";
 	padding-left: 20px;
 	color: #ec5e54;
@@ -1186,18 +1186,19 @@ h1.page-header-title span {
 	margin-bottom: 50px !important;
 }
 
-.owmEventDate {
+.owmEventDate p {
 	font-size: 16px;
 	color: #113b8e;
 	font-family: "Roboto Slab", serif;
 	margin-bottom: 10px;
 }
 
-.owmEventTitle {
+.owmEventTitle p {
 	font-size: 18px;
 	font-family: "proxima-nova", sans-serif;
 	font-weight: 700;
 	color: #000;
+	line-height: 18px;
 }
 
 
