@@ -1176,10 +1176,13 @@ h1.page-header-title span {
 	font-size: 18px;
 	text-transform: uppercase;
 	margin-top: 10px;
-
 }
 
-.ownUpcomingEvents .headerArrow h4 a::after {
+.owmUpcomingEvents h4 a:hover {
+	text-decoration: underline;
+}
+
+.ownUpcomingEvents::after {
 	content: "test";
 	padding-left: 20px;
 	color: #ec5e54;
