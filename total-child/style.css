@@ -1180,6 +1180,7 @@ h1.page-header-title span {
 
 .owmUpcomingEvents h4 a:hover {
 	text-decoration: underline;
+	color: #ec5e54;
 }
 
 .ownUpcomingEvents::after {
