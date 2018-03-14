@@ -1181,10 +1181,11 @@ h1.page-header-title span {
 .owmUpcomingEvents h4 a:hover {
 	text-decoration: underline;
 	color: #ec5e54;
+	font-weight: 700;
 }
 
-.ownUpcomingEvents::after {
-	content: "test";
+.ownUpcomingEvents h4 a::after {
+	content: "url(/wp-content/uploads/03/18/h3-arrow.png)";
 	padding-left: 20px;
 	color: #ec5e54;
 	display: inline-block;
