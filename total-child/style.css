@@ -1116,26 +1116,23 @@ h1.page-header-title span {
 .owmUpcomingEventsRightCol {
 	padding-top: 80px;
 }
-.owmUpcomingEventsLeftCol {
 
+.owmUpcomingEventsLeftCol  {
+	padding: 50px 0 0 0;
 }
 
-.owmUpcomingEventsLeftCol .vc_column-inner {
-	padding: 140px 0 0 0;
+.owmCurrentExhibit {
+	padding: 50% 0 0 0;
+	min-height: 449px;
 }
 
-.owmCurrentExhibit p{
+.owmCurrentExhibitHeader p{
 	color: #fff;
 	font-size: 16px;
 	font-family:"proxima-nova", sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	padding-left: 30px;
-}
-
-.owmCurrentExhibit {
-	padding: 50% 0 0 0;
-	min-height: 449px;
 }
 
 .owmCurrentExhibitDate p {
