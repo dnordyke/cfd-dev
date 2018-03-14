@@ -1227,8 +1227,16 @@ h1.page-header-title span {
 }
 
 .featureBox.owm {
-	width: 62%;
 	padding: 30px 50px;
+}
+
+.featureBox.owm .vc_column-inner {
+	width: 60%;
+	padding: 60px;
+}
+
+.featureBox.owm {
+	font-size: 43px;
 }
 
 .featureBox.owm p {
