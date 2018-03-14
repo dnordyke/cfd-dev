@@ -1176,7 +1176,7 @@ h1.page-header-title span {
 }
 
 .ownUpcomingEvents h4::after{
-	content:"\f105";
+	content:"Yay!";
 	padding-left: 20px;
 	color: #ec5e54;
 }
