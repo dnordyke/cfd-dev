@@ -1185,7 +1185,7 @@ h1.page-header-title span {
 }
 
 .ownUpcomingEvents h4 a::after {
-	content: "url(/wp-content/uploads/03/18/h3-arrow.png)";
+	content: url(/wp-content/uploads/03/18/h3-arrow.png);
 	padding-left: 20px;
 	color: #ec5e54;
 	display: inline-block;
