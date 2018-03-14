@@ -1185,11 +1185,12 @@ h1.page-header-title span {
 }
 
 .owmUpcomingEvents h4 a::after {
-	content:"\f39e";
+	content:"\f105";
 	padding-left: 20px;
 	color: #ec5e54;
 	display: inline-block;
 	font-family: "FontAwesome";
+	font-weight: 300;
 }
 
 
