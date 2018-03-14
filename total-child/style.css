@@ -1214,7 +1214,7 @@ h1.page-header-title span {
 }
 
 .buyTicketsButton.owmRed{
-	background: #ec5e54;
+	background: #d6716a;
 	line-height: normal;
 	font-size: 20px;
 	text-align:center;
@@ -1224,6 +1224,16 @@ h1.page-header-title span {
 	padding: 10px 12px;
 	float:left;
 	color: #fff;
+}
+
+.featureBox.owm {
+	width: 62%;
+	padding: 30px 50px;
+}
+
+.featureBox.owm p {
+	font-size: 16px;
+	line-height: 34px;
 }
 
 
