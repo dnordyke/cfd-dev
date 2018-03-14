@@ -1213,6 +1213,19 @@ h1.page-header-title span {
 	line-height: 18px;
 }
 
+.buyTicketsButton.owmRed{
+	background: #ec5e54;
+	line-height: normal;
+	font-size: 20px;
+	text-align:center;
+	font-family: "Roboto Slab";
+	font-weight: 300;
+	width: auto;
+	padding: 10px 12px;
+	float:left;
+	color: #fff;
+}
+
 
 /*Footer Styles*/
 
