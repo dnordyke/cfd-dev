@@ -379,10 +379,6 @@ a.buyTicketsBlue  {
 
 }
 
-.buyTicketsButton::after {
-	content: url(/wp-content/uploads/2017/11/buyTicketsArrow.png);
-}
-
 a > .buyTicketsButton, a > .buyTicketsRedButton {color: #fff;}
 
 
@@ -1102,6 +1098,14 @@ h1.page-header-title span {
 
 .owmOpener {
 	padding-top: 150px;
+}
+
+.owmOpener .buyTicketsText {
+	float: left;
+	line-height: 16px;
+	font-size: 16px;
+	font-family: "Roboto Slab", serf;
+	color: #fff;
 }
 
 .owmOpener .owmTitle h1 {
