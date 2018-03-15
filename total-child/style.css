@@ -26,7 +26,7 @@ p {
 	line-height: 30px;
 }
 
-.wpex-vc-row-boxed-layout-stretched {
+.wpex-vc-row-boxed-layout-stretched, .vc_row {
 	padding-left: 150px !important;
 	padding-right: 150px !important;
 }
@@ -1162,7 +1162,7 @@ h1.page-header-title span {
 	padding-left: 30px;
 }
 
-.owmUpcomingEvents h3 {
+.owmUpcomingEvents h3, .ownInfo h3 {
 	font-family: "Roboto Slab", serif;
 	font-size: 27px;
 	text-transform: uppercase;
@@ -1219,15 +1219,16 @@ h1.page-header-title span {
 	font-size: 20px;
 	text-align:center;
 	font-family: "Roboto Slab";
-	font-weight: 300;
 	width: auto;
-	padding: 10px 12px;
+	padding: 10px 20px;
 	float:left;
 	color: #fff;
+	font-weight: 700;
+	text-transform:  uppercase;
 }
 
 .featureBox.owm {
-	padding: 30px 50px;
+	padding: 60px 0 0 0;
 }
 
 .featureBox.owm .vc_column-inner {
