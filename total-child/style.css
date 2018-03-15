@@ -1092,8 +1092,13 @@ h1.page-header-title span {
 
 /*Old West Museum */
 
+
 .page-id-711 .page-header {
 	display: none;
+}
+
+section#owm {
+	background-position: center top;
 }
 
 .owmOpener {
