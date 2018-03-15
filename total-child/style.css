@@ -1263,7 +1263,6 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,
   color: #fff;
   content: open-quote;
   font-size: 130px;
-  line-height: 0.1em;
   margin-right: 0;
   vertical-align: -150px;
 	float: left;
@@ -1273,7 +1272,6 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,
 	color: #fff;
   content: close-quote;
   font-size: 130px;
-  line-height: 0.1em;
   margin-right: 0;
   vertical-align: -0.4em;
 	float: right;
@@ -1287,7 +1285,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,
 
 .quoteText.owm {
 		width: 100%;
-		padding-top: 50px;
+		padding-top: 200px;
 		padding-bottom: 0;
 		background: transparent;
 }
@@ -1300,6 +1298,19 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,
 
 .quoteText.owm em {
 	padding-left: 50px;
+}
+
+.owmGetInvolved h3 {
+	font-family: "Roboto Slab", serif;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.owmBecomeMember {
+	font-family: "Roboto Slab", serif;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 
