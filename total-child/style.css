@@ -125,7 +125,6 @@ p {
 	background: -moz-linear-gradient(top, #1d62f2 0%, #6742bc 100%);
 	background: -webkit-linear-gradient(top, #1d62f2 0%,#6742bc 100%);
 	background: linear-gradient(to bottom, #1d62f2 0%,#6742bc 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 );
 	padding: 25px;
 }
 
@@ -162,7 +161,6 @@ sf-menu ul {
 	background: -moz-linear-gradient(top, #1d62f2 0%, #6742bc 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, #1d62f2 0%,#6742bc 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #1d62f2 0%,#6742bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d62f2', endColorstr='#6742bc',GradientType=0 ); /* IE6-9 */
 	padding: 25px;
   margin-top: 0px;
 	box-shadow: 2px 2px 4px -2px #222;
@@ -1225,6 +1223,7 @@ h1.page-header-title span {
 	color: #fff;
 	font-weight: 700;
 	text-transform:  uppercase;
+	min-width: 200px;
 }
 
 .featureBox.owm {
@@ -1245,6 +1244,14 @@ h1.page-header-title span {
 	line-height: 34px;
 }
 
+.owmQuote {
+	background: rgb(230,179,121); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(230,179,121,1) 1%, rgba(225,99,124,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(230,179,121,1) 1%,rgba(225,99,124,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(230,179,121,1) 1%,rgba(225,99,124,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	
+}
 
 /*Footer Styles*/
 
