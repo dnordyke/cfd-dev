@@ -1160,7 +1160,7 @@ h1.page-header-title span {
 	padding-left: 30px;
 }
 
-.owmUpcomingEvents h3, .ownInfo h3 {
+.owmUpcomingEvents h3, .owmInfoText h3 {
 	font-family: "Roboto Slab", serif;
 	font-size: 27px;
 	text-transform: uppercase;
@@ -1244,6 +1244,25 @@ h1.page-header-title span {
 	line-height: 34px;
 }
 
+.owmInfo {
+	padding-top: 75px;
+}
+
+.owmGetInvolved h3 {
+	font-family: "Roboto Slab", serif;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.owmBecomeMember {
+	font-family: "Roboto Slab", serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+
+
 .owmQuote {
 
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 20%, rgba(229,175,114,1) 20%, rgba(225,99,124,1) 100%); /* FF3.6-15 */
@@ -1300,18 +1319,6 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,
 	padding-left: 50px;
 }
 
-.owmGetInvolved h3 {
-	font-family: "Roboto Slab", serif;
-	font-size: 48px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-.owmBecomeMember {
-	font-family: "Roboto Slab", serif;
-	font-size: 16px;
-	text-transform: uppercase;
-}
 
 
 /*Footer Styles*/
