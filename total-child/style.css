@@ -1153,6 +1153,7 @@ line-height: 51px;
 	font-size: 25px;
 	line-height: 25px;
 	font-weight: 300;
+	width: 470px;
 }
 .owmUpcomingEventsRightCol {
 	padding-top: 80px;
@@ -1228,6 +1229,11 @@ line-height: 51px;
 	display: inline-block;
 	font-family: "FontAwesome";
 	font-weight: 300;
+}
+
+.owmCurrentExhibitText {
+	position: absolute;
+	bottom: 0;
 }
 
 
@@ -1506,6 +1512,10 @@ section#owm {
 
 .owmUpcomingEventsLeftCol {
 	padding: 70px 0 0 0;
+}
+
+.owmUpcomingEventsRightCol {
+	padding-top: 0;
 }
 
 	}
