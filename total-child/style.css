@@ -1113,7 +1113,7 @@ font-size: 20px;
 line-height: 51px;
 }
 
-.buyTicketsRed.owm::after {
+.owmOpener .buyTicketsText::before {
 	content: url(/wp-content/uploads/2017/11/buyTicketsArrow.png);
 }
 
