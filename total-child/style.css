@@ -1530,16 +1530,13 @@ section#owm {
 .featureBox.owm p {
 	line-height: 28px;
 }
-.featureBox.owm .buyTicketsRed img {
-	display: none;
-}
 
 .owmInfo {
     padding-top: 50px;
 }
 
-.vc_row..owmQuote {
-
+.vc_row.owmQuote {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+20,e5af72+20,e1637c+100 */
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 20%, rgba(229,175,114,1) 20%, rgba(225,99,124,1) 100%) !important; /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(255,255,255,1) 20%,rgba(229,175,114,1) 20%,rgba(225,99,124,1) 100%) !important; /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,1) 20%,rgba(225,99,124,1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
