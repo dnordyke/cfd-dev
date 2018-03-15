@@ -1098,7 +1098,7 @@ h1.page-header-title span {
 }
 
 section#owm {
-	background-position: center top;
+	background-position: center top !important;
 }
 
 .owmOpener {
@@ -1491,8 +1491,8 @@ p.copyright {
 /*Old West Museum Mobile Styles*/
 
 section#owm {
-	background-size: cover;
-	background-position: right top !important;
+	background-size: inherit;
+	background-position: left top !important;
 }
 
 .owmOpener {
