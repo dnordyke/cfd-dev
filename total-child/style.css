@@ -1182,7 +1182,7 @@ h1.page-header-title span {
 	font-weight: 700;
 }
 
-.owmUpcomingEvents h4 a::after {
+.owmUpcomingEvents h4 a::after, .owmInfo h4 a::after {
 	content:"\f105";
 	padding-left: 20px;
 	color: #ec5e54;
