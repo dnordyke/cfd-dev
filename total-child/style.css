@@ -1114,7 +1114,7 @@ line-height: 51px;
 }
 
 .buyTicketsRed.owm::after {
-	content: "url(/wp-content/uploads/2017/11/buyTicketsArrow.png)"
+	content: url(/wp-content/uploads/2017/11/buyTicketsArrow.png);
 }
 
 .owmOpener .buyTicketsText {
