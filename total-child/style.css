@@ -1113,8 +1113,16 @@ font-size: 20px;
 line-height: 51px;
 }
 
-.owmOpener .buyTicketsText::before {
-	content: url(/wp-content/uploads/2017/11/buyTicketsArrow.png);
+.buyTicketsRed.owm a {
+	color: #fff;
+}
+
+.buyTicketsArrow {
+	float: left;
+}
+
+.buyTicketsArrow img {
+	margin-top: 25px;
 }
 
 .owmOpener .buyTicketsText {
@@ -1123,7 +1131,7 @@ line-height: 51px;
   font-size: 16px;
   font-family: "Roboto Slab", serf;
   color: #fff;
-  margin: 31px 0 0 20px;
+  margin: 31px 0 0 0px;
 }
 
 .owmOpener .owmTitle h1 {
