@@ -1254,8 +1254,8 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,
 
 .owm blockquote {
   background: transparent;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  margin: 0;
+  padding: 0;
   quotes: "\201C""\201D""\2018""\2019";
 	vertical-align: middle;
 }
@@ -1281,7 +1281,7 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,
 }
 
 .owm blockquote p {
-  padding-left: 60px
+  padding-left: 50px
 
 }
 
@@ -1294,6 +1294,8 @@ background: linear-gradient(to bottom, rgba(255,255,255,1) 20%,rgba(229,175,114,
 
 .quoteText.owm p {
 	width: inherit;
+	font-size: 36px;
+	line-height: normal;
 }
 
 .quoteText.owm em {
