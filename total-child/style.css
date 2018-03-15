@@ -1164,7 +1164,7 @@ line-height: 51px;
 }
 
 .owmCurrentExhibit {
-	padding: 50% 0 0 0;
+	padding: 0;
 	min-height: 449px;
 }
 
@@ -1497,7 +1497,7 @@ p.copyright {
 /*Old West Museum Mobile Styles*/
 
 section#owm {
-	background-size: inherit;
+	background-size: inherit !important;
 	background-position: left top !important;
 }
 
@@ -1516,6 +1516,22 @@ section#owm {
 
 .owmUpcomingEventsRightCol {
 	padding-top: 0;
+}
+
+.featureBox.owm {
+    padding: 25px 0;
+}
+
+.featureBox.owm .vc_column-inner {
+    width: 100%;
+    padding: 25px;
+}
+
+.featureBox.owm p {
+	line-height: 28px;
+}
+.featureBox.owm .buyTicketsRed img {
+	display: none;
 }
 
 	}
