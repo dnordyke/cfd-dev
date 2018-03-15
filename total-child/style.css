@@ -380,7 +380,7 @@ a.buyTicketsBlue  {
 }
 
 .buyTicketsButton::after {
-	content: "wp-content/uploads/2017/11/buyTicketsArrow.png";
+	content: "url(/wp-content/uploads/2017/11/buyTicketsArrow.png");
 }
 
 a > .buyTicketsButton, a > .buyTicketsRedButton {color: #fff;}
