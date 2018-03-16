@@ -1522,6 +1522,10 @@ section#owm {
     padding: 15px;
 }
 
+.featureBox.owm .buyTicketsRed img {
+	display: none;
+}
+
 .featureBox.owm .vc_column-inner {
     width: 100%;
     padding: 12px;
