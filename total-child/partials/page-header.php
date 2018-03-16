@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
        </div>
     </div>
 
-	<div class="textcenter theme-button-block-wrap theme-button-wrap clr"
+	<div class="textcenter theme-button-block-wrap theme-button-wrap clr">
 			<a href="/tickets" title="Buy Cheyenne Frontier Days Tickets" class="vcex-button theme-button align-center block buyTicketsBlue animate-on-hover wpex-data-hover" target="_blank" style="background:#2467ee;padding-top:15px;padding-right:35px;padding-bottom:16px;padding-left:35px;color:#ffffff;font-size:17px;font-weight:400;letter-spacing:0.75px;border-radius:0px;text-transform:capitalize;" data-hover-background="#4f84ef" data-hover-color="#ffffff">
 				<span class="theme-button-inner">BUY TICKETS</span>
 			</a>
