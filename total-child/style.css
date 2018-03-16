@@ -340,11 +340,7 @@ span.theme-button-inner {
 }
 
 
-a.buyTicketsBlue  {
-	line-height: 17px;
-}
-
-.tickesButton a {
+.ticketsButton a {
 	background: #2467ee;
 	padding-top: 5px;
 	padding-right: 35px;
