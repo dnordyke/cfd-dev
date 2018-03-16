@@ -1474,6 +1474,14 @@ body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
 	background: #fff;
 }
 
+#sidr-main {
+	background: #fff;
+}
+
+.sidr-class-mobileTop {
+	display: inline-block;
+
+}
 
 /*end homepage mobile styles*/
 
