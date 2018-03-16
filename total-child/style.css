@@ -1476,12 +1476,38 @@ body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
 
 #sidr-main {
 	background: #fff;
+	top: 133px;
+}
+
+.sidr-class-dropdown-menu li {
+border-bottom: 2px solid #ddd;
+}
+
+.sidr-class-dropdown-menu li a {
+	font-family: "Roboto Slab", serif;
+	color: #000;
 }
 
 .sidr-class-mobileTop {
 	display: inline-block;
-
 }
+
+.sidr-class-mobileTop li {
+	border-bottom: 0;
+}
+
+.sidr-class-mobileTop li a {
+	text-decoration: underline;
+}
+
+.sidr-class-mobileMenuFirst {
+	background: #2467ee;
+}
+
+li.sidr-class-mobileMenuFirst a {
+	color: #fff;
+}
+
 
 /*end homepage mobile styles*/
 
