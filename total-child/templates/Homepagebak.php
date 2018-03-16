@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header(); ?>
 
-	<?php if(0): ?><div id="content-wrap" class="container clr homepageTop" style="background: url('<?php the_post_thumbnail_url( 'full' );?>') top center no-repeat;"><?php endif; ?>
+	<?php if(0): /*?><div id="content-wrap" class="container clr homepageTop" style="background: url('<?php the_post_thumbnail_url( 'full' );?>') top center no-repeat;"><?php endif; */?>
 	<div id="content-wrap" class="container clr homepageTop">
 
 		<?php wpex_hook_primary_before(); ?>

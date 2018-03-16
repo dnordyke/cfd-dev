@@ -341,17 +341,16 @@ span.theme-button-inner {
 
 
 .ticketsButton a {
-	background: #2467ee;
-	padding-top: 5px;
-	padding-right: 35px;
-	padding-bottom: 16px;
-	padding-left: 35px;
-	color: #ffffff;
-	font-size: 17px;
-	font-weight: 400;
-	letter-spacing: 0.75px;
-	border-radius: 0px;
-	text-transform: capitalize;
+background: #2467ee;
+padding-right: 35px;
+padding-left: 35px;
+color: #ffffff;
+font-size: 17px;
+font-weight: 400;
+letter-spacing: 0.75px;
+border-radius: 0px;
+text-transform: capitalize;
+line-height: 32px;
 }
 
 .buyTicketsRed {
