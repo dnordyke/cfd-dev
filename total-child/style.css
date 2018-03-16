@@ -304,27 +304,27 @@ body.home #overlay-header-wrap {
 	font-size: 18px;
 	border-right: 1px solid #395ca1;
 	line-height: 18px;
+	padding: 0;
+	margin: 0;
 }
 
 #blueRibbon .vcex-countdown {
 	font-size: 14px;
 	color: #fff;
 	font-family: "proxima-nova";
-
 }
 
 .cfdStartDate {
 	float: left;
-	margin: 15px 0 0 30px;
+  margin: 18px 0 0 0px;
+  width: 15%;
+  padding: 0;
 }
 
 .countdown {
 	float: left;
-	margin: 15px 0 0 50px;
+	margin: 15px 0 0 20px;
 }
-/*.vcex-countdown > div:nth-child(3) {
-	display: none;
-}*/
 
 .vcex-countdown > div {
 	margin: 0 10px 0 0;
