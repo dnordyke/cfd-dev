@@ -1547,6 +1547,7 @@ padding-bottom: 50px;
 	height: 570px;
 	width: 512px;
 	margin-left: -80px;
+	max-width: none;
 }
 
 .quoteText.owm {
