@@ -1441,9 +1441,18 @@ p.copyright {
 	float: right;
   margin: 18px 0 0 0px;
 	padding: 0;
-  width: 50%;
-  text-align: right;
+  width: auto;
+  text-align: left;
 }
+
+#blueRibbon h3 {
+	font-size: 15px;
+	margin: 0 30px 0 0;
+	padding:0;
+	border-right: 0;
+}
+
+
 #blueRibbon .ticketsButton {
   float: left;
   width: auto;
@@ -1455,6 +1464,18 @@ p.copyright {
   padding: 3px 20px;
 }
 
+#mobile-menu {
+position: absolute;
+z-index: 99999;
+top: 110px;
+}
+
+#mobile-menu .wpex-bars>span::before, #mobile-menu .wpex-bars>span::after {
+	background: #fff;
+}
+
+
+/*end homepage mobile styles*/
 
 
 	.planCardLeft, .planCardRight, .planCallOut {
