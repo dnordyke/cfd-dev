@@ -344,6 +344,20 @@ a.buyTicketsBlue  {
 	line-height: 17px;
 }
 
+.tickesButton a {
+	background: #2467ee;
+	padding-top: 5px;
+	padding-right: 35px;
+	padding-bottom: 16px;
+	padding-left: 35px;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+	border-radius: 0px;
+	text-transform: capitalize;
+}
+
 .buyTicketsRed {
 	width: 405px;
 	color: #fff;
@@ -1437,6 +1451,12 @@ p.copyright {
 #blueRibbon .ticketsButton {
   float: left;
   width: 50%;
+}
+
+.ticketsButton a {
+	height: 48px;
+  line-height: 48px;
+  padding: 3px 20px;
 }
 
 
