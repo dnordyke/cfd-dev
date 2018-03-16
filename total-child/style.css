@@ -1446,7 +1446,7 @@ p.copyright {
 }
 #blueRibbon .ticketsButton {
   float: left;
-  width: 50%;
+  width: auto;
 }
 
 .ticketsButton a {
