@@ -288,10 +288,10 @@ body.home #overlay-header-wrap {
 	font-size: 18px;
 	position: relative;
 	margin: 0 auto;
-    width: 100%;
+  width: 100%;
     /* top: 1px; */
-	padding-left: 123px !important;
-    background-color: #113b8e !important;
+	padding: 0 150px !important;
+  background-color: #113b8e !important;
 }
 
 #blueRibbon .wpb_column .vc_column-inner{
@@ -299,11 +299,11 @@ body.home #overlay-header-wrap {
 }
 
 #blueRibbon h3 {
-	margin: 0;
 	color: #fff;
 	font-weight: 400;
 	font-size: 18px;
-
+	border-right: 1px solid #395ca1;
+	line-height: 18px;
 }
 
 #blueRibbon .vcex-countdown {
@@ -313,13 +313,15 @@ body.home #overlay-header-wrap {
 
 }
 
-
-
-.blueRibbonDate h3 {
-	border-right: 1px solid #395ca1;
-	width: 95%;
+.cfdStartDate {
+	float: left;
+	margin: 15px 0 0 30px;
 }
 
+.countdown {
+	float: left;
+	margin: 15px 0 0 50px;
+}
 /*.vcex-countdown > div:nth-child(3) {
 	display: none;
 }*/
