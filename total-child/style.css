@@ -1421,7 +1421,7 @@ p.copyright {
 @media only screen and (max-width: 767px) {
 
 #blueRibbon{
-	padding-left: 0
+	padding: 0 !important;
 }
 .countdown {
 	display: none;
