@@ -47,6 +47,9 @@ p {
     display: flex;
 }
 
+.footer-widget {
+	padding-bottom: 0
+}
 
 
 #wrap, #footer {
