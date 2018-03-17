@@ -740,6 +740,7 @@ a.ticketLinkButton {
 	background-size: auto !important;
 }
 
+
 .sponsorTabs ul li.vc_tta-tab> a {
 	font-family: "Roboto Slab";
 	font-weight:300;
@@ -748,6 +749,7 @@ a.ticketLinkButton {
 
 .sponsorTabs {
 	margin: 0;
+	text-align: center;
 }
 
 .sponsorTabs .vc_tta-panels, .sponsorTabs li.vc_tta-tab:not(.vc_active) a{
@@ -1551,6 +1553,11 @@ li.sidr-class-mobileMenuFirst a {
 
 .buyTicketsRed {
 	width: 100%;
+}
+
+.vc_custom_1519939210268 {
+	background-image: none;
+
 }
 
 
