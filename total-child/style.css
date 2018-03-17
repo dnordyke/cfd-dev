@@ -275,8 +275,9 @@ body.home #overlay-header-wrap {
   background-repeat: no-repeat;
 }
 
-.home .page-header.wpex-supports-mods {
-	background-image: none !important;
+.home header.page-header.wpex-supports-mods {
+	/*background-image: none !important;*/
+		display: none;
 }
 /* END: Daniel font page ribbon */
 
