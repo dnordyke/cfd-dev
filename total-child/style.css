@@ -1555,16 +1555,16 @@ li.sidr-class-mobileMenuFirst a {
 	width: 100%;
 }
 
-.vc_custom_1519939210268 {
-	background-image: none;
+.vc_row.vc_custom_1519939210268 {
+	background-image: none !important;
 
 }
 
-.sponsorTabs .vc_tta-panel-heading {
+.vc_tta-panel-heading {
 	border-width: 1px;
 }
 
-.sponsorTabs .wpb-js-composer .vc_tta-color-black.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-title>a {
+.wpb-js-composer .vc_tta-color-black.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-title>a {
 	font-family: "Roboto Slab" !important;
 }
 
