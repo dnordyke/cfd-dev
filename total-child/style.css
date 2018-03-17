@@ -1485,7 +1485,7 @@ p.copyright {
 
 #sidr-main {
 	background: #fff;
-	top: 50px;
+	top: 25px;
 }
 
 .sidr-class-dropdown-menu li {
@@ -1496,6 +1496,13 @@ border-bottom: 2px solid #ddd;
 	font-family: "Roboto Slab", serif;
 	color: #000;
 }
+
+.sidr-class-dropdown-menu li a:active {
+	font-family: "Roboto Slab", serif;
+	color: #000;
+}
+
+
 
 .sidr-class-mobileTop {
 	display: inline-block;
