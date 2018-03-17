@@ -1446,14 +1446,14 @@ p.copyright {
 
 .cfdStartDate {
 	float: right;
-  margin: 18px 80px 0 0px;
+  margin: 16px 40px 0 0px;
 	padding: 0;
   width: auto;
   text-align: left;
 }
 
 #blueRibbon h3 {
-	font-size: 15px;
+	font-size: 18px;
 	margin: 0;
 	padding:0;
 	border-right: 0;
@@ -1473,19 +1473,19 @@ p.copyright {
 
 /* moves mobile hambuger into blue bar */
 
-/*body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
-	position: absolute;
-	z-index: 99999;
-	top: 110px;
+body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
+	/*position: absolute;
+	z-index: 99999;*/
+	top: 70px;
 }
 
-#mobile-menu .wpex-bars>span, #mobile-menu .wpex-bars>span::before, #mobile-menu .wpex-bars>span::after {
+/*#mobile-menu .wpex-bars>span, #mobile-menu .wpex-bars>span::before, #mobile-menu .wpex-bars>span::after {
 	background: #fff;
 }*/
 
 #sidr-main {
 	background: #fff;
-	top: 25px;
+	top: 80px;
 }
 
 .sidr-class-dropdown-menu li {
@@ -1525,17 +1525,30 @@ li.sidr-class-mobileMenuFirst a {
 
 }
 
-	.planCardLeft, .planCardRight, .planCallOut {
+.line2 p {
+	font-size: 18vw;
+	line-height: 17vw;
+
+}
+
+.line3 p {
+	font-size: 8vw;
+	margin-top: 5px;
+}
+
+.planCardLeft, .planCardRight, .planCallOut {
 		padding: 0;
 		margin: 0;
 	}
-	 .planCallOut .vc_column-inner {
-		 padding: 10px;
+ .planCallOut .vc_column-inner {
+		 padding: 0;
 		 border: 0;
 	 }
-	.planYourExperience {
-		flex-direction: column !important;
-	}
+
+.planExperience {
+	padding: 15px !important;
+}
+
 
 
 
