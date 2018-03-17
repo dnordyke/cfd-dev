@@ -1420,7 +1420,7 @@ section#rodeoPage {
 	background-position: center top !important;
 }
 
-.rodeoOpener {
+.rodeoPageOpener {
 	padding-top: 150px;
 }
 
@@ -1449,7 +1449,7 @@ line-height: 51px;
 	margin-top: 25px;
 }
 
-.rodeoOpener .buyTicketsText {
+.rodeoPageOpener .buyTicketsText {
 	float: left;
   line-height: 20px;
   font-size: 16px;
@@ -1458,7 +1458,7 @@ line-height: 51px;
   margin: 31px 0 0 10px;
 }
 
-.rodeoOpener .owmTitle h1 {
+.rodeoPageOpener .rodeoPageTitle h1 {
 	font-family: "Roboto Slab", serif;
 	font-size: 72px;
 	color: #fff;
@@ -1466,11 +1466,11 @@ line-height: 51px;
 	text-transform: uppercase;
 }
 
-.rodeoOpener .owmSubtitle p{
-	color: #fee661;
+.rodeoPageOpener .rodeoPageSubtitle p{
+	color: #fff;
 	font-family: "Roboto Slab", serif;
-	font-size: 25px;
-	line-height: 25px;
+	font-size: 48px;
+	line-height: normal;
 	font-weight: 300;
 	width: 470px;
 }
