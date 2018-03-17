@@ -1485,7 +1485,7 @@ p.copyright {
 
 #sidr-main {
 	background: #fff;
-	top: 133px;
+	top: 50px;
 }
 
 .sidr-class-dropdown-menu li {
@@ -1547,8 +1547,7 @@ li.sidr-class-mobileMenuFirst a {
 		 padding-right: 15px !important;
 		 }
 	#site-header-inner {
-		padding-left: 30px !important;
-		padding-right: 30px !important;
+		padding: 0 10px 10px 10px !important
 	}
 
 	.firstRow .leftCol {
