@@ -609,7 +609,7 @@ a > .ourHistoryButton {color: #ec5e54;}
 .planCallOut ul li a:hover {
 	text-decoration: underline;
 }
-.planCallOut{
+.planCallOut::before{
 content: "";
 position: absolute;
 bottom: 40px;
