@@ -573,12 +573,13 @@ a > .ourHistoryButton {color: #ec5e54;}
 
 .planCallOut {
 	margin-left: 0px;
+	width: 34% !important;
 }
 
 .planCallOut p {
 	line-height: 26px;
 	font-size: 16px;
-	margin: 28px 35px 0 0;
+	/*margin: 28px 35px 0 0;*/
 }
 
 .planCallOut ul {
@@ -680,6 +681,10 @@ a.ticketLinkButton {
 
 }
 
+.sponsorLogos img {
+	margin-top: 100px;
+	box-shadow: 0 2px 4px 4px;
+}
 
 /*Juicer Social Feed */
 
