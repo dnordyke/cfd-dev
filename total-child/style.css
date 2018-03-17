@@ -1480,7 +1480,7 @@ p.copyright {
 body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
 	/*position: absolute;
 	z-index: 99999;*/
-	top: 70px;
+	top: 50px;
 }
 
 /*#mobile-menu .wpex-bars>span, #mobile-menu .wpex-bars>span::before, #mobile-menu .wpex-bars>span::after {
