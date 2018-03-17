@@ -1561,7 +1561,11 @@ li.sidr-class-mobileMenuFirst a {
 }
 
 .vc_tta-panel-heading {
-	border-width: 1px;
+	border-width: 1px !important;
+}
+
+.vc_tta-panel-body {
+	border: 0 !important;
 }
 
 .wpb-js-composer .vc_tta-color-black.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-title>a {
