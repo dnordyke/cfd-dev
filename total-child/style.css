@@ -190,19 +190,23 @@ sf-menu ul {
 
 /*positioning dropdowns to swing to the left */
 
-.wpex-dropdown-style-minimal-sq #site-navigation .menu-item-21 ul {
+/*Rodeo*/
+.wpex-dropdown-style-minimal-sq #site-navigation .menu-item-1302 ul {
 	left: 0;
 }
+/*Visitor*/
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-20 ul {
 	left: -127%;
 }
+/*Get Involved*/
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-1131 ul {
 	left: -340%;
 }
-
+/*Our History*/
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-19 ul {
 	left: 0%;
 }
+/*Museum*/
 .wpex-dropdown-style-minimal-sq #site-navigation .menu-item-716 ul {
 	left: -356%;
 }
