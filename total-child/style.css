@@ -1468,7 +1468,7 @@ p.copyright {
 .ticketsButton a {
 	height: 48px;
   line-height: 48px;
-  padding: 3px 20px;
+  padding: 3px 17%;
 }
 
 /* moves mobile hambuger into blue bar */
@@ -1549,7 +1549,9 @@ li.sidr-class-mobileMenuFirst a {
 	padding: 15px !important;
 }
 
-
+.buyTicketsRed {
+	width: 100%;
+}
 
 
 }
