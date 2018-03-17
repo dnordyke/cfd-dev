@@ -351,7 +351,7 @@ font-weight: 400;
 letter-spacing: 0.75px;
 border-radius: 0px;
 text-transform: capitalize;
-line-height: 32px;
+line-height: 31px;
 }
 
 .buyTicketsRed {
@@ -567,12 +567,12 @@ a > .ourHistoryButton {color: #ec5e54;}
 }
 
 .planCallOut .vc_column-inner {
-	padding: 50px;
+	padding: 0 42px;
 	border: 1px solid #fff;
 }
 
 .planCallOut {
-	margin-left: 50px;
+	margin-left: 0px;
 }
 
 .planCallOut p {
@@ -608,6 +608,15 @@ a > .ourHistoryButton {color: #ec5e54;}
 
 .planCallOut ul li a:hover {
 	text-decoration: underline;
+}
+.planCallOut{
+content: "";
+position: absolute;
+bottom: 40px;
+right: -40px;
+background: url(images/bg-arrow-decor.png) no-repeat;
+width: 40px;
+height: 27px;
 }
 
 
@@ -1509,10 +1518,6 @@ li.sidr-class-mobileMenuFirst a {
 
 }
 
-
-/*end homepage mobile styles*/
-
-
 	.planCardLeft, .planCardRight, .planCallOut {
 		padding: 0;
 		margin: 0;
@@ -1529,7 +1534,7 @@ li.sidr-class-mobileMenuFirst a {
 
 }
 
-
+/*end homepage mobile styles*/
 
 
 
