@@ -1480,7 +1480,7 @@ p.copyright {
 body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
 	/*position: absolute;
 	z-index: 99999;*/
-	top: 50px;
+	top: 70px;
 }
 
 /*#mobile-menu .wpex-bars>span, #mobile-menu .wpex-bars>span::before, #mobile-menu .wpex-bars>span::after {
@@ -1489,7 +1489,7 @@ body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
 
 #sidr-main {
 	background: #fff;
-	top: 80px;
+	top: 50px;
 }
 
 .sidr-class-dropdown-menu li {
