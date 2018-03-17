@@ -682,8 +682,8 @@ a.ticketLinkButton {
 }
 
 .sponsorLogos img {
-	margin-top: 100px;
-	box-shadow: 0 2px 4px 4px;
+	margin-top: 50px;
+	box-shadow: 0px 2px 10px 1px;
 }
 
 /*Juicer Social Feed */
@@ -1471,7 +1471,9 @@ p.copyright {
   padding: 3px 20px;
 }
 
-body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
+/* moves mobile hambuger into blue bar */
+
+/*body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
 	position: absolute;
 	z-index: 99999;
 	top: 110px;
@@ -1479,7 +1481,7 @@ body.wpex-mobile-toggle-menu-icon_buttons #mobile-menu {
 
 #mobile-menu .wpex-bars>span, #mobile-menu .wpex-bars>span::before, #mobile-menu .wpex-bars>span::after {
 	background: #fff;
-}
+}*/
 
 #sidr-main {
 	background: #fff;
