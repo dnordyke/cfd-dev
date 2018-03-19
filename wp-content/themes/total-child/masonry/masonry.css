@@ -1,0 +1,122 @@
+.ml {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 0;
+     -moz-column-gap: 0;
+          column-gap: 0;
+  position: relative;
+}
+
+.ml * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ml-pnl {
+  margin: 0;
+  padding: 5px;
+}
+
+.ml-pnl {
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.ml-pnl__cntnt {
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  width: 100%;
+}
+.ml-pnl__cntnt--img {
+  max-width: 100%;
+  padding: 0;
+}
+
+.ml-clstr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+.ml-clstr--vrt {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ml-clstr--hrz {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.ml-clstr__sgmnt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.ml-clstr__sgmnt--rw {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.ml-clstr__sgmnt--clmn {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ml-clstr__sgmnt--hlf {
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+.ml-clstr__sgmnt--qrt {
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+}
+/**
+  * Color styles
+*/
+.tx--white {
+  color: #fff;
+}
+.bg--red {
+  background-color: #e74c3c;
+}
+.bg--green {
+  background-color: #26a65b;
+}
+.bg--purple {
+  background-color: #8e44ad;
+}
+.bg--blue {
+  background-color: #1e8bc3;
+}
+img {
+  max-height: 300px;
+  background-color: yellow;
+}
